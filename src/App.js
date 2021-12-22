@@ -3,7 +3,7 @@ import "./App.css";
 const App = () => {
   return (
     <div className="App">
-      <h1>React Basics</h1>
+      <h1>Advance React Here We Go</h1>
     </div>
   );
 };
