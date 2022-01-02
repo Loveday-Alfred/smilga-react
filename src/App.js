@@ -6,7 +6,9 @@
 // import UseStateCounter from "./tutorial/1-useState/setup/5-useState-counter";
 
 // useEffect Basics
-import UseEffectBasics from "./tutorial/2-useEffect/setup/1-useEffect-basics";
+// import UseEffectBasics from "./tutorial/2-useEffect/setup/1-useEffect-basics";
+// import UseEffectCleanup from "./tutorial/2-useEffect/setup/2-useEffect-cleanup";
+import UseEffectFetchData from "./tutorial/2-useEffect/setup/3-useEffect-fetch-data";
 
 const App = () => {
   return (
@@ -19,7 +21,9 @@ const App = () => {
       {/* <UseStateCounter /> */}
 
       {/* useEffectBasics */}
-      <UseEffectBasics />
+      {/* <UseEffectBasics /> */}
+      {/* <UseEffectCleanup /> */}
+      <UseEffectFetchData />
     </div>
   );
 };
